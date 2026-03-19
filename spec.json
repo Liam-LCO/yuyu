@@ -1,0 +1,413 @@
+{
+  "siteType": "vitrine",
+  "brand": {
+    "name": "NomDuBusiness",
+    "nav": [
+      "Accueil",
+      "À propos",
+      "Produits",
+      "Contact",
+      "Services"
+    ]
+  },
+  "theme": {
+    "palette": "warm",
+    "typo": "playfair"
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "title": "Accueil",
+      "description": "Bienvenue à notre boulangerie, découvrez nos spécialités fraîches du jour.",
+      "blocks": [
+        {
+          "type": "hero",
+          "variant": "hero1",
+          "variantReason": "Accueil chaleureux et invitant",
+          "kicker": "Bienvenue chez nous",
+          "title": "Délices frais du jour",
+          "subtitle": "Découvrez nos spécialités artisanales fraîchement préparées chaque matin dans notre boulangerie.",
+          "cta": {
+            "label": "Voir nos produits"
+          },
+          "visual": "image_hero_boulangerie.jpg"
+        },
+        {
+          "type": "features",
+          "variant": "features1",
+          "variantReason": "Présentation des points forts",
+          "kicker": "Nos spécialités",
+          "title": "Fait avec passion",
+          "subtitle": "Chaque produit est préparé avec les meilleurs ingrédients.",
+          "items": [
+            {
+              "title": "Pains traditionnels",
+              "text": "Savourez nos pains préparés chaque matin.",
+              "icon": "pain_icon"
+            },
+            {
+              "title": "Viennoiseries",
+              "text": "Croissants et pains au chocolat croustillants.",
+              "icon": "viennoiserie_icon"
+            },
+            {
+              "title": "Gâteaux sur commande",
+              "text": "Des créations sur mesure pour tous vos événements.",
+              "icon": "gateau_icon"
+            },
+            {
+              "title": "Épicerie locale",
+              "text": "Produits frais et locaux pour accompagner la boulangerie.",
+              "icon": "epicerie_icon"
+            }
+          ]
+        },
+        {
+          "type": "imagetext",
+          "variant": "imagetext1",
+          "variantReason": "Histoires visuelles",
+          "kicker": "Notre savoir-faire",
+          "title": "Artisanat de qualité",
+          "subtitle": "Notre engagement envers la qualité et le goût.",
+          "text": "Depuis plusieurs décennies, nous nous engageons à vous offrir le meilleur de la boulangerie artisanale, en perpétuant les traditions qui font notre renom.",
+          "cta": {
+            "label": "En savoir plus"
+          }
+        },
+        {
+          "type": "testimonials",
+          "variant": "testimonials1",
+          "variantReason": "Avis clients positifs",
+          "kicker": "Témoignages",
+          "title": "Ce que nos clients disent",
+          "items": [
+            {
+              "text": "Les croissants les plus délicieux que j'ai jamais goûtés !",
+              "author": "Marie Dupont",
+              "role": "Client fidèle",
+              "initial": "MD"
+            },
+            {
+              "text": "Toujours un accueil chaleureux et des produits frais.",
+              "author": "Jean Martin",
+              "role": "Visiteur régulier",
+              "initial": "JM"
+            },
+            {
+              "text": "Parfait pour mes petits-déjeuners en famille.",
+              "author": "Louise Petit",
+              "role": "Amatrice de viennoiseries",
+              "initial": "LP"
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "variant": "cta1",
+          "variantReason": "Invitation à l'action",
+          "title": "Envie de quelque chose de spécial ?",
+          "subtitle": "Commandez dès maintenant et profitez d'une réduction exclusive.",
+          "cta": {
+            "label": "Commandez maintenant"
+          }
+        },
+        {
+          "type": "contact",
+          "variant": "contact1",
+          "variantReason": "Informations pratiques",
+          "kicker": "Contactez-nous",
+          "title": "Rendez-nous visite",
+          "subtitle": "Nous sommes toujours ravis de vous accueillir.",
+          "email": "contact@nomdubusiness.fr",
+          "phone": "+33 1 23 45 67 89",
+          "address": "12 Rue de la Boulangerie, Paris",
+          "ctaLabel": "Localisez-nous",
+          "text": "Un accueil chaleureux vous attend à notre adresse."
+        },
+        {
+          "type": "footer",
+          "variant": "footer1",
+          "variantReason": "Conclusion de page",
+          "text": "&copy; 2023 NomDuBusiness. Tous droits réservés."
+        }
+      ]
+    },
+    {
+      "slug": "a-propos",
+      "title": "À propos",
+      "description": "Découvrez l'histoire et la passion derrière notre boulangerie artisanale.",
+      "blocks": [
+        {
+          "type": "pageheader",
+          "variant": "pageheader1",
+          "variantReason": "Introduction de l'histoire",
+          "kicker": "À propos de nous",
+          "title": "Notre voyage artisanal",
+          "subtitle": "Découvrez l'histoire et la passion derrière notre métier."
+        },
+        {
+          "type": "imagetext",
+          "variant": "imagetext2",
+          "variantReason": "Approfondissement",
+          "kicker": "Nos racines",
+          "title": "Une histoire de passion",
+          "subtitle": "Depuis trois générations dans la boulangerie.",
+          "text": "Transmise de génération en génération, notre expertise se mêle à une passion pour l'innovation qui a fait de notre boulangerie un incontournable.",
+          "cta": {
+            "label": "Lire notre histoire"
+          }
+        },
+        {
+          "type": "team",
+          "variant": "team1",
+          "variantReason": "Présentation de l'équipe",
+          "kicker": "Rencontrez notre équipe",
+          "title": "Les artisans derrière le goût",
+          "subtitle": "Passion et dévouement chaque jour."
+        },
+        {
+          "type": "gallery",
+          "variant": "gallery1",
+          "variantReason": "Visuels attrayants",
+          "kicker": "Nos coulisses",
+          "title": "Découvrez notre atelier",
+          "subtitle": "Là où la magie opère.",
+          "text": "En un coup d'œil, entrez dans l'univers de notre fabrication artisanale avec un aperçu de notre atelier.",
+          "cta": {
+            "label": "Voir la galerie"
+          }
+        },
+        {
+          "type": "footer",
+          "variant": "footer1",
+          "variantReason": "Conclusion de page",
+          "text": "&copy; 2023 NomDuBusiness. Tous droits réservés."
+        }
+      ]
+    },
+    {
+      "slug": "produits",
+      "title": "Produits",
+      "description": "Explorez notre gamme de pains, pâtisseries et délices faits maison.",
+      "blocks": [
+        {
+          "type": "pageheader",
+          "variant": "pageheader2",
+          "variantReason": "Introduction à la gamme produit",
+          "kicker": "Nos produits",
+          "title": "Découvrez nos spécialités",
+          "subtitle": "Une variété de délices faits maison."
+        },
+        {
+          "type": "productGrid",
+          "variant": "productGrid1",
+          "variantReason": "Cataloque de produits",
+          "kicker": "Gamme délicieuse",
+          "title": "Pains et pâtisseries",
+          "subtitle": "Des ingrédients de qualité, des saveurs incomparables.",
+          "items": [
+            {
+              "title": "Baguette tradition",
+              "text": "Une croûte dorée et un goût inimitable.",
+              "price": "1,20€",
+              "icon": "baguette_icon"
+            },
+            {
+              "title": "Croissant au beurre",
+              "text": "Flaky and buttery perfection.",
+              "price": "1,50€",
+              "icon": "croissant_icon"
+            },
+            {
+              "title": "Tarte aux pommes",
+              "text": "Sucrée et savoureuse avec des pommes délicates.",
+              "price": "3,80€",
+              "icon": "tarte_icon"
+            },
+            {
+              "title": "Éclair au chocolat",
+              "text": "Crémeux et chocolaté, un pur plaisir.",
+              "price": "2,50€",
+              "icon": "eclair_icon"
+            }
+          ]
+        },
+        {
+          "type": "imagetext",
+          "variant": "imagetext3",
+          "variantReason": "Mise en avant d'un produit",
+          "kicker": "Favoris",
+          "title": "Pain aux graines",
+          "subtitle": "Un choix nutritif et savoureux.",
+          "text": "Ce pain riche en graines offre un goût unique et une texture incroyable, parfait pour accompagner vos repas.",
+          "cta": {
+            "label": "Découvrez ce produit"
+          }
+        },
+        {
+          "type": "faq",
+          "variant": "faq1",
+          "variantReason": "Réponses aux questions fréquentes",
+          "kicker": "FAQ Produits",
+          "title": "Besoin d'aide ?",
+          "items": [
+            {
+              "q": "Quels ingrédients utilisez-vous ?",
+              "a": "Nous utilisons des ingrédients locaux et biologiques dans nos recettes."
+            },
+            {
+              "q": "Proposez-vous des options sans gluten ?",
+              "a": "Oui, nous avons une gamme de produits sans gluten."
+            },
+            {
+              "q": "Peut-on commander en ligne ?",
+              "a": "Actuellement, nous acceptons seulement les commandes par téléphone."
+            },
+            {
+              "q": "Faites-vous des livraisons ?",
+              "a": "Oui, vous pouvez vous faire livrer dans un rayon de 10km."
+            },
+            {
+              "q": "Comment sont stockés vos produits ?",
+              "a": "Nos produits sont frais tous les jours et stockés dans des conditions optimales."
+            }
+          ]
+        },
+        {
+          "type": "footer",
+          "variant": "footer1",
+          "variantReason": "Conclusion de page",
+          "text": "&copy; 2023 NomDuBusiness. Tous droits réservés."
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "description": "Contactez-nous ou venez nous rendre visite dans notre boulangerie.",
+      "blocks": [
+        {
+          "type": "pageheader",
+          "variant": "pageheader3",
+          "variantReason": "Guide contact",
+          "kicker": "Contactez-nous",
+          "title": "Entrons en contact",
+          "subtitle": "Vous avez des questions ? Nous sommes là pour vous."
+        },
+        {
+          "type": "map",
+          "variant": "map1",
+          "variantReason": "Contact physique",
+          "kicker": "Localisation",
+          "title": "Trouvez-nous facilement",
+          "subtitle": "Au cœur de Paris.",
+          "text": "Notre boulangerie est idéalement située pour vous accueillir tous les jours.",
+          "cta": {
+            "label": "Voir sur la carte"
+          }
+        },
+        {
+          "type": "richtext",
+          "variant": "richtext1",
+          "variantReason": "Informations détaillées",
+          "kicker": "Informations pratiques",
+          "title": "Nous joindre",
+          "subtitle": "Tous les moyens pour nous contacter.",
+          "text": "Email : contact@nomdubusiness.fr\nTéléphone : +33 1 23 45 67 89\nAdresse : 12 Rue de la Boulangerie, Paris\nHeures d’ouverture : Lundi à Samedi - 7h à 19h"
+        },
+        {
+          "type": "contact",
+          "variant": "contact2",
+          "variantReason": "Formulaire de contact direct",
+          "kicker": "Formulaire",
+          "title": "Contactez-nous directement",
+          "subtitle": "Pour toute demande d’information.",
+          "email": "contact@nomdubusiness.fr",
+          "phone": "+33 1 23 45 67 89",
+          "address": "12 Rue de la Boulangerie, Paris",
+          "ctaLabel": "Envoyer un message",
+          "text": "Nous ferons de notre mieux pour répondre dans les plus brefs délais."
+        },
+        {
+          "type": "footer",
+          "variant": "footer1",
+          "variantReason": "Conclusion de page",
+          "text": "&copy; 2023 NomDuBusiness. Tous droits réservés."
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "title": "Services",
+      "description": "Presentation des offres et expertises.",
+      "blocks": [
+        {
+          "type": "pageheader",
+          "variant": "pageheader4",
+          "variantReason": "Explication de nos services",
+          "kicker": "Nos services",
+          "title": "Offres et expertises",
+          "subtitle": "Découvrez ce que nous proposons au-delà des produits."
+        },
+        {
+          "type": "features",
+          "variant": "features2",
+          "variantReason": "Détails sur les services",
+          "kicker": "Nos engagements",
+          "title": "Plus que du pain",
+          "subtitle": "Un service complet pour nos clients.",
+          "items": [
+            {
+              "title": "Atelier pâtisserie",
+              "text": "Participez à nos sessions de création pâtissière.",
+              "icon": "atelier_icon"
+            },
+            {
+              "title": "Service traiteur",
+              "text": "Un service sur mesure pour vos événements.",
+              "icon": "traiteur_icon"
+            },
+            {
+              "title": "Distribution locale",
+              "text": "Livraison de pains frais à domicile.",
+              "icon": "distribution_icon"
+            },
+            {
+              "title": "Conseil en nutrition",
+              "text": "Un accompagnement pour manger sainement.",
+              "icon": "conseil_icon"
+            }
+          ]
+        },
+        {
+          "type": "imagetext",
+          "variant": "imagetext4",
+          "variantReason": "Focus sur un service",
+          "kicker": "Ateliers créatifs",
+          "title": "Pâtissez avec nous",
+          "subtitle": "Apprenez les secrets de nos recettes.",
+          "text": "Rejoignez nos ateliers et développez vos compétences en pâtisserie avec les conseils de nos experts.",
+          "cta": {
+            "label": "Découvrir nos ateliers"
+          }
+        },
+        {
+          "type": "cta",
+          "variant": "cta2",
+          "variantReason": "Invitation à découvrir les services",
+          "title": "Envie de découvrir nos services ?",
+          "subtitle": "Contactez-nous pour en savoir plus.",
+          "cta": {
+            "label": "Contactez-nous maintenant"
+          }
+        },
+        {
+          "type": "footer",
+          "variant": "footer1",
+          "variantReason": "Conclusion de page",
+          "text": "&copy; 2023 NomDuBusiness. Tous droits réservés."
+        }
+      ]
+    }
+  ]
+}
